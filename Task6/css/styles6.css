@@ -1,0 +1,67 @@
+body{
+    padding: 30px;
+}
+.panel {
+    background: #50a2de;
+    color: #fff;
+    padding: 1em;
+    width: 20em;
+    height: 10em;
+    border-radius: 10px;
+    position: relative;
+    display: inline-block;
+    margin-right: 2em;
+    overflow: hidden;
+}
+.panel::before {
+    content: '';
+    position: absolute;
+    left: 10px; right: 10px;
+    bottom: 0;
+    height: 4em;
+    background: linear-gradient(to bottom, transparent, #50a2de 90%);
+    pointer-events: none;
+}
+#bar {
+    top:-5.5em; right:5em;
+    padding: .5em;
+    margin: 0;
+    position: absolute;
+    width: 2em;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    transition: top 1s ease-out 0.5s;
+}
+#bar:hover { top: 0; }
+P { 
+    text-indent: 1.5em;
+    text-align: justify;
+}
+.button {
+    background: #fc0;
+    padding: 10px 20px;
+    display: inline-block;
+}
+.descr { visibility: hidden; }
+.button:hover + .descr {
+    visibility: visible;
+}
+.tel {
+    word-spacing: 10px;
+    font-size: 2em;
+} 
+em {
+    letter-spacing: 2px;
+}
+.col { 
+    background: #f0f0f0;
+    width: 230px;
+    padding: 5px;
+    word-break: break-all; 
+}
+.dolphin img {
+    object-fit: cover;
+    height: 500px;
+    width: 400px;
+}
