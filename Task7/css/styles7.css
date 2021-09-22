@@ -1,0 +1,52 @@
+body {
+  padding: 30px;
+}
+.block {
+  border: 2px solid black;
+  max-width: 500px;
+  margin: 0px auto;
+  height: 500px;
+  position: relative;
+}
+.block_A {
+  background-color: cadetblue;
+  color: white;
+  text-align: center;
+  position: relative;
+  line-height: 250px;
+  font-size: 20px;
+  width: 60%;
+}
+.block_B {
+  background-color: rgb(235, 143, 163);
+  color: white;
+  text-align: center;
+  position: absolute;
+  width: 40%;
+  top: 0px;
+  left: 300px;
+  line-height: 500px;
+  font-size: 20px;
+}
+.block_D {
+  background-color: rgb(188, 143, 186);
+  color: white;
+  text-align: center;
+  position: absolute;
+  width: 60%;
+  top: 250px;
+  left: 0px;
+  line-height: 250px;
+  font-size: 20px;
+}
+.block_C {
+  background-color: cornsilk;
+  color: blueviolet;
+  text-align: center;
+  position: fixed;
+  top: 230;
+  left: 35%;
+  width: 10%;
+  height: 40px;
+  z-index: 2;
+}
