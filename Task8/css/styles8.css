@@ -1,0 +1,48 @@
+html,
+#wrapper {
+    overflow-x: hidden;
+}
+div {
+    color: white;
+    font-weight: bold;
+    margin: 2px;
+}
+.header {
+    background-color: blue;
+    width: 100%;
+    min-height: 100px;
+    text-align: center;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.main {
+    background-color: chartreuse;
+    width: calc(60% - 4px);
+    min-height: calc(100vh - 208px);
+    text-align: center;
+    float: left;
+}
+.sidenav {
+    background-color: coral;
+    width: calc(20% - 4px);
+    min-height: calc(100vh - 208px);
+    float: left;
+    text-align: center;
+}
+.sidebar {
+    background-color: coral;
+    width: calc(20% - 4px);
+    min-height: calc(100vh - 208px);
+    float: left;
+    text-align: center;
+}
+.footer {
+    background-color: blue;
+    width: 100%;
+    min-height: 100px;
+    float: left;
+    text-align: center;
+}
